@@ -88,6 +88,9 @@ body{
     .desktop-only {
         display: normal !important;
     }
+    .mobile-only {
+        display: none !important;
+    }
     .left {
       text-align: right;
     }
