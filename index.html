@@ -21,14 +21,21 @@
     <div class="outer">
       <div class="middle">
         <div class="inner">
+          <div id="loading">
+              <h2 class="thin">Loading...</h2>
+          </div>
+          <div id="wip">
+              <h2 class="thin">Not yet inserted...</h2>
+              <a onclick="back()">(back)</a>
+          </div>
           <div class="row" id="content">
             <div class="left col-sm-4">
               <h1><strong>DroneScout</strong></h1>
               <h5 class="thin">Application Supplement for HFG</h5><br>
               <div class="desktop-only"><br><br><br><br><br></div>
               <div class="desktop-only">
-                <h2>Sarah Kreps</h2>
-                <h2>Miles McCain</h2>
+                <a href="docs/SKREPS.pdf"><h2>Sarah Kreps</h2></a>
+                <a href="docs/RMCCAIN.pdf"><h2>Miles McCain</h2></a>
               </div>
               <div class="mobile-only">
                 <br><br>
@@ -36,16 +43,16 @@
             </div>
             <div class="right col-sm-6">
               <br>
-              <p><a class="link thin" onclick="hide()" href="docs/SKreps_RMcCain_CV_DroneScout.pdf">Curricula Vitae</a></p><br>
               <p><a class="link thin" onclick="wip()">Figure 1: Drone Strikes Over Time</a></p><br>
               <p><a class="link thin" onclick="wip()">Figure 2: Mentions of Drones in Congress</a></p><br>
               <p><a class="link thin" onclick="hide()" href="figures/heatmap.html">Figure 3: Drone Statement Heatmap</a></p><br>
               <p><a class="link thin" onclick="hide()" href="https://tbij.dronescout.org">Drone Strike API</a></p><br>
+              <p><a class="link thin" onclick="wip()" href="#">Additional Notes</a></p><br>
             </div>
             <br><br>
             <div class="mobile-only">
-              <h2>Sarah Kreps</h2>
-              <h2>Miles McCain</h2>
+              <a href="docs/SKREPS.pdf"><h2>Sarah Kreps</h2></a>
+              <a href="docs/RMCCAIN.pdf"><h2>Miles McCain</h2></a>
             </div>
           </div>
         </div>

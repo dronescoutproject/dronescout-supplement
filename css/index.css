@@ -39,6 +39,9 @@ a:hover {
   font-style: italic;
   text-decoration: none;
 }
+a h2:hover {
+  font-style: normal;
+}
 
 .border {
   border-color: black;
@@ -80,30 +83,30 @@ pre {
   font-weight: 400;
   line-height: 18.5714px;
 }
-body{
+
+body {
   max-width: 100%;
 }
 
 @media (min-width:768px) {
-    .desktop-only {
-        display: normal !important;
-    }
-    .mobile-only {
-        display: none !important;
-    }
-    .left {
-      text-align: right;
-    }
+  .desktop-only {
+    display: normal !important;
+  }
+  .mobile-only {
+    display: none !important;
+  }
+  .left {
+    text-align: right;
+  }
 }
 
 @media (max-width: 767px) {
-    .mobile-only {
-        display: visible !important;
-    }
-
-    .desktop-only {
-        display: none !important;
-    }
+  .mobile-only {
+    display: visible !important;
+  }
+  .desktop-only {
+    display: none !important;
+  }
 }
 
 #loading {
