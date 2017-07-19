@@ -80,13 +80,31 @@ pre {
   font-weight: 400;
   line-height: 18.5714px;
 }
+body{
+  max-width: 100%;
+}
+
+@media (min-width:768px) {
+    .desktop-only {
+        display: normal !important;
+    }
+    .left {
+      text-align: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile-only {
+        display: visible !important;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+}
 
 #loading {
   display: none;
-}
-
-.left {
-  text-align: right;
 }
 
 .right {
